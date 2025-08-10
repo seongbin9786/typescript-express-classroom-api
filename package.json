@@ -12,7 +12,8 @@
     "start": "pnpm build && node --enable-source-maps dist/index.js",
     "start:clean": "pnpm clean && pnpm start",
     "dev": "nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "lefthook install"
   },
   "keywords": [],
   "author": "seongbin",
@@ -25,6 +26,8 @@
     "typescript": "^5.9.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.33.0",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/node": "^24.2.1",
@@ -35,6 +38,7 @@
     "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-unused-imports": "^4.1.4",
     "globals": "^16.3.0",
+    "lefthook": "^1.12.2",
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2",
     "tsc-alias": "^1.8.16",
