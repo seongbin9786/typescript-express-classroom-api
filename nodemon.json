@@ -1,0 +1,5 @@
+{
+  "watch": ["src/**/*", ".env", ".env.local"],
+  "ext": "ts,env,local",
+  "exec": "pnpm start"
+}
