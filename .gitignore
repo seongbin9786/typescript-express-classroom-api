@@ -4,4 +4,6 @@ dist
 
 tsconfig.tsbuildinfo
 
-.env*
+.env
+.env.local
+.env.production
