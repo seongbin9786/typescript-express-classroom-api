@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Classroom API server that survives large traffic",
   "main": "index.js",
+  "private": true,
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist && rm -rf ./tsconfig.tsbuildinfo",
@@ -24,9 +25,19 @@
     "typescript": "^5.9.2"
   },
   "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/node": "^24.2.1",
     "dotenv": "^17.2.1",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-n": "^17.21.3",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^16.3.0",
     "nodemon": "^3.1.10",
-    "tsc-alias": "^1.8.16"
+    "prettier": "^3.6.2",
+    "tsc-alias": "^1.8.16",
+    "typescript-eslint": "^8.39.0"
   }
 }
